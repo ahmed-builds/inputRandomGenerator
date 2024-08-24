@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator | Ahmed Mohammed</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="mainDivTitle">            
+            <h2>Random Number Generator</h2>
+            <span>Based on the input of user.</span>
+        </div>
+        <div class="row">
+            <div class="inputMin">
+                <label for="inputMinValue">Min</label><br />
+                <input type="tel" name="inputMinValue" id="inputMinValue" class="inputControl" placeholder="Min Value" maxlength="4" required>
+            </div>
+            <div class="inputMax">
+                <label for="inputMaxValue">Max:</label><br />
+                <input type="tel" name="inputMaxValue" id="inputMaxValue" class="inputControl" placeholder="Max Value" maxlength="4" required>
+            </div>
+        </div>
+        <span id="error"></span>
+        <button id="generateNumber">Generate Number</button>
+        <div id="resultNumber" class="resultDisable">0</div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
